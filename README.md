@@ -1,7 +1,5 @@
-PÁGINA DE TESTES 
-# Trabalho Prático - Semana 2
+#PÁGINA DE TESTES GIT
 
 ## Informações Gerais
 
 Nome: Sávio Salomão
-Matricula: 
