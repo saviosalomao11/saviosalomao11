@@ -1,16 +1,24 @@
-## Hi there 👋
 
-<!--
-**saviosalomao11/saviosalomao11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Trabalho Prático - Semana 2
 
-Here are some ideas to get you started:
+## Informações Gerais
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Nome: Sávio José Salomão Ferreira da Silva
+Matricula: 906957
+
+## Tela de inspeção com navegador
+
+![Tela de inspeção](images/image-results.jpeg)
+
+## Tela do Projeto
+
+![Imagem página](images/image-html.jpeg)
+
+
+## Orientações sobre Linguagem MarkDown
+
+Acesse e leia o [tutorial do GitHub com a sintaxe básica para escrita de texto em Markdown](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+Veja aqui o exemplo de como colocar uma imagem nos locais acima. 
+
+![Brasão PUC Minas](images/brasao_puc.png)
