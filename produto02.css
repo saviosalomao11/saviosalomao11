@@ -1,0 +1,148 @@
+.cabeçalho { 
+    border-bottom: 1px solid #eaeaea;
+    padding-left: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', sans-serif;}
+
+.nome-loja h1 {
+    font-size: 1.5rem;
+    color: #000000d2;}
+
+button { 
+    cursor: pointer;}
+
+.cabeçalho button { 
+    border-radius: 8px;
+    border: none;
+    background: none;
+    font-size: 2rem;}
+
+.voltar-menu {
+    text-align: left;
+    padding-left: 17.5%;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000e8;}
+
+.produto-celular {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5%;}
+
+.imagem-celular {
+    margin-left: 17%;
+    margin-top: 1%;
+    border-radius: 10%;
+    width: 40%;
+    height: auto;}
+
+.informacoes-do-produto {
+    text-align: left;
+    font-family: 'Segoe UI', sans-serif;}
+
+.titulo-celular {
+    font-size: 80px;
+    margin-top: 0%;
+    font-family: 'Georgia';}
+
+.avaliação {
+    font-size: x-large;
+    margin-top: -8%;}
+    
+.estoque {
+    font-size: large;}
+
+.Descrição {
+    font-size: larger;
+    padding-top: 3%;}
+
+.valor {
+    font-size: 60px;
+    margin-top: 5%;}
+
+.botões {
+    display: flex;
+    gap: 5%;}
+
+.botao-compra {
+    padding: 40px 80px;
+    border-radius: 13px;}
+
+.botao-carrinho {
+    padding: 40px 80px;
+    border-radius: 13px;}
+
+@media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;}
+
+    * {
+        box-sizing: border-box;}
+
+    .cabeçalho {
+        padding: 15px;
+        width: 100%;}
+    
+    .nome-loja h1 {
+        font-size: 1.2rem;
+        margin: 0;}
+
+    .voltar-menu {
+        padding-left: 15px;
+        font-size: 1rem;}
+
+    .fone-ouvido, .produto-celular, .produto-notebook, .produto-smartwatch, 
+    .produto-camera, .produto-caixa-som, .produto-tablet, .produto-teclado {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 10px;
+        width: 100%;
+        padding: 0 15px;}
+
+    .fone-de-ouvido, .imagem-celular, .imagem-notebook, .imagem-smartwatch, 
+    .imagem-camera, .imagem-caixa-som, .imagem-tablet, .imagem-teclado {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 300px;
+        display: block;}
+
+    .informacoes-do-produto {
+        text-align: center;
+        width: 100%;
+        padding: 0;}
+
+    .titulo-fone, .titulo-celular, .titulo-notebook, .titulo-smartwatch, 
+    .titulo-camera, .titulo-caixa-som, .titulo-tablet, .titulo-teclado {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        word-wrap: break-word;
+        margin-top: 15px;}
+
+    .Descrição {
+        font-size: 1.1rem;
+        padding: 0;}
+
+    .valor {
+        font-size: 2rem;}
+
+    .botões {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        margin-bottom: 40px;}
+
+    .botao-compra, .botao-carrinho {
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 1.1rem;
+        white-space: normal;
+        height: auto;}
+}
